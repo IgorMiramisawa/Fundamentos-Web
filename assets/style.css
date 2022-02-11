@@ -1,0 +1,87 @@
+/*
+Estilos da página index.html */
+
+body {
+    background: hsl(0, 0%, 12%);
+    color: #fcfcfc;
+}
+
+.center {
+    text-align: center;
+}
+.titsub {
+    color:#a1a1a1;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    
+}
+nav {
+    
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  }
+
+nav a {
+    color: #a1a1a1;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 2rem;
+  } 
+
+.menu ul li {
+    display: inline;
+    padding:15px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.sobre {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh {
+    width:400px;
+    height:400px;
+}
+.justify {
+    text-align: justify;
+}
+
+/*
+Estilos da página index.html */
+
+.mapeando {
+    padding: 60px;
+}
+.ml-50 {
+    
+    margin-left: 50px;
+    
+}
+
